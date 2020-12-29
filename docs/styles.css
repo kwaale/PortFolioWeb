@@ -1,0 +1,106 @@
+body{
+    background-image:  url(img/FondoBoreal.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+}
+.cont-present{
+    display: flex;
+    flex-flow: wrap-reverse;
+    flex-direction: column;
+    flex: wrap;
+    /* background: black; */
+    color: aliceblue;
+}
+#cont-nombre-icons{
+    display: flex;
+    font-size: 5vw;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1px;
+    font-family: Verdana;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    width: 70%;
+}
+#fotoperfil{
+    align-items: baseline;
+    width: 100%;
+    border: inset;
+    justify-self: baseline;
+}
+#cont-foto{
+    width: 25%;
+}
+#cont-incons{
+    display: inherit;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+}
+.icontacto{
+    width: 35%;
+    height: auto;
+}
+.icontacto:hover{
+    box-shadow: 0px 0px 15px 15px yellow;
+    border-radius: 100%;
+    
+    /* box-shadow: 0px 0px 15px 15px yellow;
+    border-radius: 100%;
+    width: 70%;
+    height: auto;
+    padding: 10%;       */
+}
+#perfil{
+    text-align: justify;
+    align-self: center;
+    color: aliceblue;
+    border-radius: 34px;
+    background: black;
+    opacity: 0.7;
+    width: 90%;
+    border: double;
+    padding: 10px;
+    font-size: 3vw;
+}
+#cont-perfil{
+    display: flex;
+    width: 100%;
+}
+#cont-ft-nom{
+    display: flex;
+}
+/* Proyectos css */
+.carusel{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+/* .proyect-box{
+    width: 250px;
+    height: 250px;
+} */
+#nodo{
+    text-align: center;
+    width: 40em;
+    height: 20em;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+    border-top-style: solid;
+    border-radius: 100%;
+}
+.img:hover{
+    box-shadow: 0px 0px 15px 15px yellowgreen;
+    border-radius: 100%;
+}
+#nombre-proyecto{
+    text-align: center;
+    font-family: Verdana;
+    color: aliceblue;
+    font-size: 3vw;
+}
