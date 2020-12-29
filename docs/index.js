@@ -12,7 +12,7 @@ const start = ()=>{
     proyectoSiguiente(nodosProyectos);
     document.getElementById('siguiente').addEventListener('click',()=>proyectoSiguiente(nodosProyectos));
     document.getElementById('atras').addEventListener('click',()=>proyectoAnterior(nodosProyectos));
-    //setInterval(()=>proyectoSiguiente(nodosProyectos),2000)
+    setInterval(()=>proyectoSiguiente(nodosProyectos),2500)
 }
 //Proyectos para agregar
 const proyectos = [
