@@ -1,25 +1,22 @@
-//Corregir dado
+
 //Cambiar texto portafolio
-//Agragar Link CV
-//Letra telefonos, mas grande -600
-//Opacidad del background
-//Cambiar Dado
-//Cambiar logo Breaking Bad
-//
+//Letra telefonos, mas grande -600 querys
+
+//Flecha adelante y atras
 let index = 0;
 //Funcion de Inicio
 const start = ()=>{
     proyectoSiguiente(nodosProyectos);
     document.getElementById('siguiente').addEventListener('click',()=>proyectoSiguiente(nodosProyectos));
     document.getElementById('atras').addEventListener('click',()=>proyectoAnterior(nodosProyectos));
-    setInterval(()=>proyectoSiguiente(nodosProyectos),2500)
+    //setInterval(()=>proyectoSiguiente(nodosProyectos),2500)
 }
 //Proyectos para agregar
 const proyectos = [
     {
         nombre:"Breaking Bad API",
         link:"https://kwaale.github.io/BreakingBadApi/",
-        img:"img/LogoBrBa.png",
+        img:"img/LogoBrBa.svg",
         altern:"Breaking Bad",
     },{
         nombre:"Cifrado del Cesar",
@@ -29,12 +26,12 @@ const proyectos = [
     },{
         nombre:"Tic Tac Toe",
         link:"https://kwaale.github.io/TicTacToe-LaVieja/",
-        img:"img/TicTacToe.png",
+        img:"img/LogoTicTacToe.jpg",
         altern:"Tic Tac Toe",
     },{
         nombre:"Dados",
         link:"https://kwaale.github.io/JuegoDados/",
-        img:"img/DadoRojo.jpg",
+        img:"img/Dados.jpg",
         altern:"Dados",
     }
 ]
