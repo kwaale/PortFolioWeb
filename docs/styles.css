@@ -45,12 +45,6 @@ body{
 .icontacto:hover{
     box-shadow: 0px 0px 15px 15px yellow;
     border-radius: 100%;
-    
-    /* box-shadow: 0px 0px 15px 15px yellow;
-    border-radius: 100%;
-    width: 70%;
-    height: auto;
-    padding: 10%;       */
 }
 #perfil{
     text-align: justify;
@@ -61,7 +55,7 @@ body{
     opacity: 0.7;
     width: 90%;
     border: double;
-    padding: 10px;
+    padding: 30px;
     font-size: 3vw;
 }
 #cont-perfil{
@@ -71,24 +65,32 @@ body{
 #cont-ft-nom{
     display: flex;
 }
-/* Proyectos css */
+
 .carusel{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: auto;
 }
-/* .proyect-box{
-    width: 250px;
-    height: 250px;
-} */
+.flechas {
+    height: 50px;
+    width: 50px;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: bolder;
+    background: black;
+    opacity: 0.7;
+    border-radius: 89%;
+    align-self: center;
+}
+
 #nodo{
     text-align: center;
-    width: 40em;
-    height: 20em;
-    background: lightgreen;
+    width: 30em;
+    height: 30em;
+    /* background: lightgreen; */
     opacity: 0.9;
-    border-radius: 100%;
+    border-radius: 10%;
 }
 .img{
     height: 100%;
@@ -107,4 +109,18 @@ body{
     font-family: Verdana;
     color: aliceblue;
     font-size: 3vw;
+}
+@media (max-width: 500px){
+    body{
+        background-image:  url(img/FondoArena.jpg);
+        background-attachment: fixed;
+        background-repeat: round;
+    }
+    #nodo{
+        text-align: center;
+        width: 40em;
+        height: 20em;
+        /* background: lightgreen; */
+        opacity: 0.9;
+        border-radius: 100%;}
 }

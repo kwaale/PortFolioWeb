@@ -1,8 +1,9 @@
 
-//Cambiar texto portafolio
 //Letra telefonos, mas grande -600 querys
-
 //Flecha adelante y atras
+//Aparecer Busquedas Google
+//efecto cambio imagen
+
 let index = 0;
 //Funcion de Inicio
 const start = ()=>{
