@@ -1,8 +1,8 @@
 
-//Letra telefonos, mas grande -600 querys
-//Flecha adelante y atras
+
+
 //Aparecer Busquedas Google
-//efecto cambio imagen
+
 
 let index = 0;
 //Funcion de Inicio
@@ -26,7 +26,7 @@ const proyectos = [
         altern:"Cifrado Cesar",
     },{
         nombre:"Tic Tac Toe",
-        link:"https://kwaale.github.io/TicTacToe-LaVieja/",
+        link:"https://kwaale.github.io/TaTeTi/",
         img:"img/LogoTicTacToe.jpg",
         altern:"Tic Tac Toe",
     },{
