@@ -1,3 +1,8 @@
-https://kwaale.github.io/PortaFolioWeb/
+[**Portafolio Web**](https://kwaale.github.io/PortaFolioWeb/)
 
-Portafolio Web, como su nombre lo dice, es un portafolio de proyectos elavorado en el transcurso de mis estudios en JavaScript, HTML y CSSBreaking Bad API Esta es una api que consulta la base de sus datos en https://breakingbadapi.com/documentation, de la serie Breaking Bad, esta presenta a los personajes de la serie con una serie de datos de cada uno, permite buscar personajes al azar, se puede realizar una busqueda por nombre del personaje y luego puedes volver a ver a todos los personas como los muestra inicialmente. https://kwaale.github.io/BreakingBadApi/ Es un proyecto simple usando HTML, CSS y JavaScript. En un futuro agregare otras funciones con el fin de que sea mas divertida esta api. Agradecimiento especial a Franco Di Leo quien se tomo el tiempo de enseñarnos estas tecnologias.
+Portafolio Web, como su nombre lo dice, es un portafolio de proyectos elaborado en el transcurso de mis estudios en JavaScript, HTML y CSS en noviembre de 2020. Agradezco a Franco Di Leo quien se tomo el tiempo de enseñarnos estas tecnologias.
+
+Para poder usarlo es suficiente con entrar en [Portafolio Web](https://kwaale.github.io/PortaFolioWeb/).
+
+Autor: Knut Waale [repositorio github](https://github.com/kwaale).
+
