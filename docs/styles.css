@@ -1,26 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
 body{
-    /* display: grid; */
+    min-height: 100%;
     background-image:  url(img/Fondo.jpg);
     background-attachment: fixed;
     background-repeat: round;
     margin: 0;
 }
-footer{
-    background: #001731;
-    text-align: center;
-    width: 100%;
-    height: 81px;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 
-}
-header{
+.bloque-header{
+    grid-area: bloque-header;
     background: #001731;
     display: flex;
-    justify-content: space-between;
-    height: 145px;
+    flex-flow: wrap;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    height: auto;
 }
 #cont-logo-foto{
     display: flex;
@@ -29,10 +30,10 @@ header{
     width: auto;
 }
 #fotoperfil{
-    height: 90%;
+    width: 20%;
     border-radius: 100%;
     align-self: center;
-    margin-left: 10px;
+    margin: 15px;
 }
 #logo-kw{
     font-family: Arial, Helvetica, sans-serif;
@@ -46,14 +47,14 @@ header{
 
 #cont-incons{
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .icontacto{
     display: flex;
-    height: 60px;
+    height: 7vw;
     border-radius: 100%;
 }
 .icontacto:hover{
@@ -79,35 +80,30 @@ header{
 #cont-ft-nom{
     display: flex;
 }
-
+.bloque-proyectos{
+    grid-area: bloque-proyectos;
+    
+}
 #cont-proyectos{
-    display: grid;
-    margin-top: 100px;
-    margin-bottom: 200px;
-    justify-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 7vw;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-template-rows: 7vw; */
     width: 100%;
     height: auto;
-}
-.flechas {
-    height: 50px;
-    width: 50px;
-    color: aqua;
-    font-size: xx-large;
-    font-weight: bolder;
-    background: black;
-    opacity: 0.7;
-    border-radius: 89%;
-    align-self: center;
 }
 
 #nodo{
     text-align: center;
-    width: 10vw;
-    height: 10vw;
+    width: 12em;
+    height: 12em;
+    margin: 40px;
     /* background: lightgreen; */
-    opacity: 0.9;
+    /* opacity: 104%; */
     border-radius: 10%;
 
 }
@@ -128,20 +124,12 @@ header{
     text-align: center;
     font-family: Verdana;
     color: #001731;
-    font-size: 2vw;
+    font-size: 2em;
 }
-@media (max-width: 500px){
-    body{
-        display: grid;
-        background-image:  url(img/FondoArena.jpg);
-        background-attachment: fixed;
-        background-repeat: round;
-    }
-    #nodo{
-        text-align: center;
-        width: 40em;
-        height: 20em;
-        /* background: lightgreen; */
-        opacity: 0.9;
-        border-radius: 100%;}
+.bloque-footer{
+    grid-area: bloque-footer;
+    background: #001731;
+    text-align: center;
+    height: 81px;
+    color: white;
 }
