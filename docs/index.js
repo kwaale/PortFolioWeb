@@ -1,17 +1,3 @@
-
-
-
-//Aparecer Busquedas Google
-// var owl = $('.owl-carousel');
-// owl.owlCarousel({
-//     items:3,
-//     loop:true,
-//     autoplay:true,
-//     autoplayTimeout:2000,
-//     autoplayHoverPause:true
-// });
-
-
 let index = 0;
 //Funcion de Inicio
 const start = ()=>{
@@ -44,6 +30,11 @@ const proyectos = [
         link:"https://kwaale.github.io/JuegoDados/",
         img:"img/Dados.jpg",
         altern:"Dados",
+    },{
+        nombre:"Movies",
+        link:"https://movies-sand.vercel.app/",
+        img:"img/MovieSearchLogo.png",
+        altern:"Movies",
     }
 ]
 //Creando nodo para proyecto
@@ -71,27 +62,5 @@ const showNodes = (ps) =>{
         elementoPadre.insertAdjacentHTML('afterbegin',newNode)
     })
 }
-// *****************************************************************
-// *    Funcion que renderiza el siguiente proyecto en el array.   *
-// *****************************************************************
-// function proyectoSiguiente(array){
-//     if(document.getElementById('nodo'))document.getElementById('nodo').remove()
-//     if(index < array.length - 1) index++;
-//     else index = 0;
-//     let elemento = array[index];
-//     document.getElementById('atras').insertAdjacentHTML('afterend',elemento);
-// }
-// *****************************************************************
-// *  Funcion que renderiza el anterior proyecto en el array.      *
-// *****************************************************************
-// const proyectoAnterior = (array)=>{
-//     if(document.getElementById('nodo'))document.getElementById('nodo').remove()
-//     if(index > 0) index--;
-//     else index = array.length - 1;
-//     let elemento = array[index];
-//     console.log(elemento);
-//     console.log("Estamos aqui")
-//     document.getElementById('atras').insertAdjacentHTML('afterend',elemento);
-// }
-//Llamamos a la funcion de inicio despues de la carga.
+
 window.onload = start();
