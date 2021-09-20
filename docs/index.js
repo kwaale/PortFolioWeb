@@ -32,7 +32,7 @@ const proyectos = [
         altern:"Dados",
     },{
         nombre:"Movies",
-        link:"https://movies-sand.vercel.app/",
+        link:"https://movies-search-nine.vercel.app/",
         img:"img/MovieSearchLogo.png",
         altern:"Movies",
     }
