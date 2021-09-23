@@ -27,7 +27,7 @@ const proyectos = [
         altern:"Tic Tac Toe",
     },{
         nombre:"Dados",
-        link:"https://kwaale.github.io/JuegoDados/",
+        link:"https://juego-dados.vercel.app/",
         img:"img/Dados.jpg",
         altern:"Dados",
     },{
